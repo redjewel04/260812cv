@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 이력서 | 개발자 포트폴리오</title>
+    <meta name="description" content="모던하고 세련된 웹 개발자 이력서 및 포트폴리오입니다.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo"><span>J</span>.Dev</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="btn-contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="about" class="hero fade-in">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="Hello, I'm a Developer">Hello, I'm a <span class="highlight">Developer</span></h1>
+                <p class="subtitle">세상을 바꾸는 코드를 작성합니다. 문제 해결을 즐기는 창의적인 소프트웨어 엔지니어입니다.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
+                    <a href="https://github.com/" target="_blank" class="btn btn-secondary">GitHub 방문</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar-container">
+                    <img src="https://ui-avatars.com/api/?name=JD&background=111&color=00f0ff&size=200&font-size=0.33&bold=true" alt="Profile Picture">
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding fade-in">
+            <h2 class="section-title">Tech <span>Stack</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-panel">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React / Vue</li>
+                        <li>Tailwind CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-card glass-panel">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Python (Django/FastAPI)</li>
+                        <li>PostgreSQL / MySQL</li>
+                        <li>RESTful APIs</li>
+                    </ul>
+                </div>
+                <div class="skill-card glass-panel">
+                    <h3>Tools & DevOps</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>Docker</li>
+                        <li>AWS (EC2, S3)</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section section-padding fade-in">
+            <h2 class="section-title">Work <span>Experience</span></h2>
+            <div class="timeline">
+                <div class="timeline-item glass-panel">
+                    <div class="timeline-date">2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>프론트엔드 리드 개발자</h3>
+                        <h4>Awesome Tech Co.</h4>
+                        <p>사내 주요 웹 애플리케이션의 아키텍처를 설계하고 React를 활용하여 사용자 경험을 대폭 개선했습니다. 렌더링 성능을 40% 향상시켰습니다.</p>
+                    </div>
+                </div>
+                <div class="timeline-item glass-panel">
+                    <div class="timeline-date">2021 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>웹 개발자</h3>
+                        <h4>Creative Solutions</h4>
+                        <p>다양한 클라이언트의 요구사항에 맞춘 반응형 웹사이트를 구축하고, REST API와 연동하는 작업을 수행했습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding fade-in">
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card glass-panel">
+                    <div class="project-img-placeholder" style="background: linear-gradient(135deg, #FF6B6B, #4ECDC4)"></div>
+                    <div class="project-info">
+                        <h3>스마트 일정 관리 앱</h3>
+                        <p>사용자의 패턴을 분석하여 최적의 일정을 추천해주는 웹 애플리케이션입니다.</p>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </div>
+                <div class="project-card glass-panel">
+                    <div class="project-img-placeholder" style="background: linear-gradient(135deg, #A8E063, #56AB2F)"></div>
+                    <div class="project-info">
+                        <h3>실시간 채팅 플랫폼</h3>
+                        <p>WebSocket을 이용해 지연 없는 실시간 통신을 지원하는 커뮤니티 플랫폼입니다.</p>
+                        <div class="tags">
+                            <span>Vue.js</span>
+                            <span>Socket.io</span>
+                            <span>Express</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding fade-in">
+            <div class="glass-panel contact-panel">
+                <h2 class="section-title">Let's <span>Connect</span></h2>
+                <p>새로운 기회나 재미있는 프로젝트에 대한 이야기를 나누는 것을 환영합니다.</p>
+                <div class="contact-links">
+                    <a href="mailto:hello@example.com" class="btn btn-primary">이메일 보내기</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 J.Dev. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
