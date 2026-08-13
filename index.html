@@ -1,158 +1,221 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>웹 이력서 | 개발자 포트폴리오</title>
-    <meta name="description" content="모던하고 세련된 웹 개발자 이력서 및 포트폴리오입니다.">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI·디지털 교육을 배우고 경험을 쌓아가는 교육자의 CV">
+  <title>CV | AI · Digital Education</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="background-shapes">
-        <div class="shape shape-1"></div>
-        <div class="shape shape-2"></div>
-        <div class="shape shape-3"></div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#home">CV</a>
+      <nav aria-label="주요 메뉴">
+        <a href="#about">About</a>
+        <a href="#learning">Learning</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
+  </header>
 
-    <header>
-        <nav>
-            <div class="logo"><span>J</span>.Dev</div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact" class="btn-contact">Contact</a></li>
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">AI · DIGITAL EDUCATION</p>
+          <h1>안녕하세요.<br><span>배우고, 직접 해보며</span><br>교육 경험을 쌓아가고 있습니다.</h1>
+          <p class="hero-copy">
+            인공지능과 디지털 도구를 배우고 실제 수업과 프로젝트에 적용해 보며
+            교육 역량을 넓혀가고 있습니다.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">프로젝트 보기</a>
+            <a class="button secondary" href="#about">소개 보기</a>
+          </div>
+        </div>
+
+        <div class="profile-card">
+          <div class="profile-placeholder" aria-label="프로필 사진 자리">
+            <span>PHOTO</span>
+          </div>
+          <div>
+            <p class="small-label">NAME</p>
+            <h2>이름을 입력하세요</h2>
+            <p>AI · 디지털 교육 학습 및 강사 활동 준비</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div>
+          <p class="section-kicker">ABOUT ME</p>
+          <h2 class="section-title">소개</h2>
+        </div>
+        <div class="content-card">
+          <p>
+            AI와 디지털 교육 분야를 배우면서 다양한 도구를 직접 사용해 보고,
+            배운 내용을 수업과 프로젝트로 연결하는 경험을 쌓고 있습니다.
+          </p>
+          <p>
+            생성형 AI, 블록코딩, 인터랙티브 미디어아트 등 새로운 기술을 학습하고
+            교육 현장에서 이해하기 쉽게 활용하는 방법에 관심을 가지고 있습니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="learning" class="section soft-section">
+      <div class="container">
+        <p class="section-kicker">EDUCATION & TRAINING</p>
+        <h2 class="section-title">교육 · 학습 경험</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="dot"></span>
+            <div>
+              <p class="tag">현재 수강 중</p>
+              <h3>인공지능 융합지도사 전문가 과정</h3>
+              <p>인공지능과 디지털 도구의 이해 및 교육 활용 방법을 학습하고 있습니다.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="dot"></span>
+            <div>
+              <h3>생성형 인공지능 활용 학습</h3>
+              <p>이미지 생성의 원리, 효과적인 생성 방법과 윤리적 활용에 대해 학습하고 실습했습니다.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="dot"></span>
+            <div>
+              <h3>p5.js 인터랙티브 미디어아트 실습</h3>
+              <p>코드를 활용해 사용자 반응에 따라 변화하는 인터랙티브 콘텐츠를 실습했습니다.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <p class="section-kicker">SKILLS & TOOLS</p>
+        <h2 class="section-title">사용해 본 도구와 기술</h2>
+        <p class="section-note">숙련도를 과장하지 않고 실제 학습·프로젝트에서 사용해 본 도구를 중심으로 정리했습니다.</p>
+        <div class="chips">
+          <span>생성형 AI</span>
+          <span>Entry 블록코딩</span>
+          <span>p5.js</span>
+          <span>Python</span>
+          <span>Tkinter</span>
+          <span>HTML / CSS</span>
+          <span>GitHub Pages</span>
+          <span>수업지도안 작성</span>
+          <span>교육 콘텐츠 제작</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section soft-section">
+      <div class="container">
+        <p class="section-kicker">PROJECTS</p>
+        <h2 class="section-title">직접 해본 프로젝트</h2>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-number">01</div>
+            <p class="tag">초등 5–6학년 · Entry</p>
+            <h3>세계 지구의 날 × 탄소중립 블록코딩 수업</h3>
+            <p>
+              탄소중립을 주제로 엔트리 블록코딩 게임을 제작하고,
+              이를 활용한 수업지도안과 학생 활동 자료를 구성했습니다.
+            </p>
+            <ul>
+              <li>탄소중립 행동과 탄소배출 행동을 게임 요소로 구성</li>
+              <li>‘지구 건강’ 점수 변수를 활용한 게임 로직 구현</li>
+              <li>수업지도안 · 활동지 · PPT 자료 제작 진행</li>
             </ul>
-        </nav>
-    </header>
+          </article>
 
-    <main>
-        <!-- Hero Section -->
-        <section id="about" class="hero fade-in">
-            <div class="hero-content">
-                <h1 class="glitch" data-text="Hello, I'm a Developer">Hello, I'm a <span class="highlight">Developer</span></h1>
-                <p class="subtitle">세상을 바꾸는 코드를 작성합니다. 문제 해결을 즐기는 창의적인 소프트웨어 엔지니어입니다.</p>
-                <div class="cta-buttons">
-                    <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
-                    <a href="https://github.com/" target="_blank" class="btn btn-secondary">GitHub 방문</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="avatar-container">
-                    <img src="https://ui-avatars.com/api/?name=JD&background=111&color=00f0ff&size=200&font-size=0.33&bold=true" alt="Profile Picture">
-                </div>
-            </div>
-        </section>
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <p class="tag">Python · Tkinter</p>
+            <h3>계산기 UI 제작</h3>
+            <p>
+              Python과 Tkinter를 활용해 계산기 화면을 만들고 숫자 표시,
+              입력 제한, 키보드 입력과 버튼 정렬 등의 기능을 구현했습니다.
+            </p>
+          </article>
 
-        <!-- Skills Section -->
-        <section id="skills" class="skills-section section-padding fade-in">
-            <h2 class="section-title">Tech <span>Stack</span></h2>
-            <div class="skills-grid">
-                <div class="skill-card glass-panel">
-                    <h3>Frontend</h3>
-                    <ul>
-                        <li>HTML5 & CSS3</li>
-                        <li>JavaScript (ES6+)</li>
-                        <li>React / Vue</li>
-                        <li>Tailwind CSS</li>
-                    </ul>
-                </div>
-                <div class="skill-card glass-panel">
-                    <h3>Backend</h3>
-                    <ul>
-                        <li>Node.js</li>
-                        <li>Python (Django/FastAPI)</li>
-                        <li>PostgreSQL / MySQL</li>
-                        <li>RESTful APIs</li>
-                    </ul>
-                </div>
-                <div class="skill-card glass-panel">
-                    <h3>Tools & DevOps</h3>
-                    <ul>
-                        <li>Git & GitHub</li>
-                        <li>Docker</li>
-                        <li>AWS (EC2, S3)</li>
-                        <li>Figma</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <p class="tag">Generative AI</p>
+            <h3>생성형 AI 이미지 실습</h3>
+            <p>
+              다양한 이미지 생성 프롬프트를 실험하며 이미지 생성 방법과
+              프롬프트 표현, 윤리적 활용에 대해 학습했습니다.
+            </p>
+          </article>
 
-        <!-- Experience Section -->
-        <section id="experience" class="experience-section section-padding fade-in">
-            <h2 class="section-title">Work <span>Experience</span></h2>
-            <div class="timeline">
-                <div class="timeline-item glass-panel">
-                    <div class="timeline-date">2024 - Present</div>
-                    <div class="timeline-content">
-                        <h3>프론트엔드 리드 개발자</h3>
-                        <h4>Awesome Tech Co.</h4>
-                        <p>사내 주요 웹 애플리케이션의 아키텍처를 설계하고 React를 활용하여 사용자 경험을 대폭 개선했습니다. 렌더링 성능을 40% 향상시켰습니다.</p>
-                    </div>
-                </div>
-                <div class="timeline-item glass-panel">
-                    <div class="timeline-date">2021 - 2024</div>
-                    <div class="timeline-content">
-                        <h3>웹 개발자</h3>
-                        <h4>Creative Solutions</h4>
-                        <p>다양한 클라이언트의 요구사항에 맞춘 반응형 웹사이트를 구축하고, REST API와 연동하는 작업을 수행했습니다.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+          <article class="project-card">
+            <div class="project-number">04</div>
+            <p class="tag">p5.js</p>
+            <h3>인터랙티브 미디어아트 실습</h3>
+            <p>
+              p5.js를 활용해 사용자와 상호작용하는 디지털 콘텐츠 제작을 실습했습니다.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="projects-section section-padding fade-in">
-            <h2 class="section-title">Featured <span>Projects</span></h2>
-            <div class="projects-grid">
-                <div class="project-card glass-panel">
-                    <div class="project-img-placeholder" style="background: linear-gradient(135deg, #FF6B6B, #4ECDC4)"></div>
-                    <div class="project-info">
-                        <h3>스마트 일정 관리 앱</h3>
-                        <p>사용자의 패턴을 분석하여 최적의 일정을 추천해주는 웹 애플리케이션입니다.</p>
-                        <div class="tags">
-                            <span>React</span>
-                            <span>Node.js</span>
-                            <span>MongoDB</span>
-                        </div>
-                        <a href="#" class="project-link">View Project →</a>
-                    </div>
-                </div>
-                <div class="project-card glass-panel">
-                    <div class="project-img-placeholder" style="background: linear-gradient(135deg, #A8E063, #56AB2F)"></div>
-                    <div class="project-info">
-                        <h3>실시간 채팅 플랫폼</h3>
-                        <p>WebSocket을 이용해 지연 없는 실시간 통신을 지원하는 커뮤니티 플랫폼입니다.</p>
-                        <div class="tags">
-                            <span>Vue.js</span>
-                            <span>Socket.io</span>
-                            <span>Express</span>
-                        </div>
-                        <a href="#" class="project-link">View Project →</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section id="experience" class="section">
+      <div class="container two-col">
+        <div>
+          <p class="section-kicker">ACTIVITIES</p>
+          <h2 class="section-title">현재의 활동</h2>
+        </div>
+        <div class="content-card">
+          <h3>AI · 디지털 교육 강사 활동 준비</h3>
+          <p>
+            AI와 디지털 기술을 교육에 활용하는 방법을 학습하며
+            수업 설계와 교육 콘텐츠 제작 경험을 쌓고 있습니다.
+          </p>
+          <p class="muted">
+            ※ 실제 강의 경력, 자격증, 수료 과정 등이 추가되면 이 영역에 날짜와 함께 기록하세요.
+          </p>
+        </div>
+      </div>
+    </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="contact-section section-padding fade-in">
-            <div class="glass-panel contact-panel">
-                <h2 class="section-title">Let's <span>Connect</span></h2>
-                <p>새로운 기회나 재미있는 프로젝트에 대한 이야기를 나누는 것을 환영합니다.</p>
-                <div class="contact-links">
-                    <a href="mailto:hello@example.com" class="btn btn-primary">이메일 보내기</a>
-                </div>
-            </div>
-        </section>
-    </main>
+    <section id="contact" class="section contact-section">
+      <div class="container contact-card">
+        <div>
+          <p class="section-kicker">CONTACT</p>
+          <h2>함께 배우고 나누는<br>교육 경험을 만들어가고 싶습니다.</h2>
+        </div>
+        <div class="contact-list">
+          <p><strong>Email</strong><span>your-email@example.com</span></p>
+          <p><strong>GitHub</strong><span>github.com/your-id</span></p>
+          <p><strong>Location</strong><span>공개를 원할 경우 지역 입력</span></p>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <footer>
-        <p>&copy; 2026 J.Dev. All rights reserved.</p>
-    </footer>
+  <footer>
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Your Name.</p>
+      <p>Built for GitHub Pages.</p>
+    </div>
+  </footer>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
